@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_margin="30px"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent">
+
+    <EditText
+        android:id="@+id/dialogEditText"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/custom"
+        android:drawableStart="@drawable/custom_phone"
+        android:drawablePadding="10dp"
+        android:hint="Enter Mobile Number"
+        android:paddingStart="15dp"
+        android:paddingLeft="20dp"
+        android:paddingEnd="12dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/custom"
+        android:id="@+id/dialogSave"
+        android:text="Save"
+        android:textColor="@color/white"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/dialogCancel"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:background="@drawable/custom"
+        android:text="Cancel"/>
+
+
+
+</LinearLayout>
